@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"github.com/abhik555/EventsAPI/middleware"
+	"github.com/Abhik555/GO-RESTFUL-API/middleware"
 	"github.com/gin-gonic/gin"
 )
 

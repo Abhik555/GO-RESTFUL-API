@@ -3,7 +3,7 @@ package middleware
 import (
 	"net/http"
 
-	"github.com/abhik555/EventsAPI/utils"
+	"github.com/Abhik555/GO-RESTFUL-API/utils"
 	"github.com/gin-gonic/gin"
 )
 
@@ -22,7 +22,7 @@ func Auththenticate(context *gin.Context) {
 		return
 	}
 
-	context.Set("userID" , userID)
+	context.Set("userID", userID)
 	context.Next()
 
 }

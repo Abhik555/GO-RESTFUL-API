@@ -3,7 +3,7 @@ package models
 import (
 	"time"
 
-	"github.com/abhik555/EventsAPI/db"
+	"github.com/Abhik555/GO-RESTFUL-API/db"
 )
 
 type Event struct {

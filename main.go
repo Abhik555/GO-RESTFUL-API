@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/abhik555/EventsAPI/db"
-	"github.com/abhik555/EventsAPI/routes"
+	"github.com/Abhik555/GO-RESTFUL-API/db"
+	"github.com/Abhik555/GO-RESTFUL-API/routes"
 	"github.com/gin-gonic/gin"
 )
 

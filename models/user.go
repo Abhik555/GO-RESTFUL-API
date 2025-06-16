@@ -3,8 +3,8 @@ package models
 import (
 	"errors"
 
-	"github.com/abhik555/EventsAPI/db"
-	"github.com/abhik555/EventsAPI/utils"
+	"github.com/Abhik555/GO-RESTFUL-API/utils"
+	"github.com/Abhik555/GO-RESTFUL-API/db"
 )
 
 type User struct {
