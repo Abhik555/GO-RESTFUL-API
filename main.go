@@ -9,6 +9,8 @@ import (
 func main() {
 	db.InitDB()
 	server := gin.Default()
+	server.SetTrustedProxies(nil)
+	gin.SetMode(gin.ReleaseMode)
 
 	routes.RegisterRoutes(server)
 
