@@ -1,4 +1,4 @@
-module github.com/abhik555/EventsAPI
+module github.com/Abhik555/GO-RESTFUL-API
 
 go 1.24.3
 
